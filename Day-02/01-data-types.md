@@ -9,8 +9,10 @@ In programming, a data type is a classification or categorization that specifies
 
 2. **Sequence Types:**
    - **str**: Represents strings (sequences of characters). Example: `text = "Hello, World"`
-   - **list**: Represents lists (ordered, mutable sequences). Example: `my_list = [1, 2, 3]`
-   - **tuple**: Represents tuples (ordered, immutable sequences). Example: `my_tuple = (1, 2, 3)`
+   - **list**:  Lists are mutable, so you can modify, append, or delete elements. Example: my_list = [1, 2, 3]; my_list.append(4); print(my_list) output: [1, 2, 3, 4]
+   - **tuple**: Tuples are immutable, so elements cannot be changed once created. my_tuple = (1, 2, 3)
+my_tuple[0] = 5 # ❌ This will raise an error 
+ 
 
 3. **Mapping Type:**
    - **dict**: Represents dictionaries (key-value pairs). Example: `my_dict = {'name': 'John', 'age': 30}`
