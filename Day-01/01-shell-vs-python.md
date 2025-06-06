@@ -28,10 +28,10 @@ Certainly! The choice between using shell scripting and Python in DevOps depends
 
 **python vs C :**<br>
 | Feature           | Python                         | C                                  |
-| ----------------- | ------------------------------ | ---------------------------------- |                    |
+| ----------------- | ------------------------------ | ---------------------------------- |                    
 | Compilation       | Interpreted (line-by-line)     | Compiled (whole code)              |
 | Speed             | Slower                         | Faster                             |
-| Syntax            | Simple, readable               | Complex, strict                    |                            |
+| Syntax            | Simple, readable               | Complex, strict                    |                            
 | Use Case          | Scripting, AI, web, automation | OS, embedded, performance-critical |
 
 1. **python syntax(simple)**
