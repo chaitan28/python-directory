@@ -26,7 +26,7 @@ Certainly! The choice between using shell scripting and Python in DevOps depends
 
 6. **Advanced Data Processing:** If your task involves advanced data processing, data analysis, or machine learning, Python's rich ecosystem of libraries (e.g., Pandas, NumPy, SciPy) makes it a more suitable choice.
 
-**python vs C :**
+**python vs C :**<br>
 | Feature           | Python                         | C                                  |
 | ----------------- | ------------------------------ | ---------------------------------- |                    |
 | Compilation       | Interpreted (line-by-line)     | Compiled (whole code)              |
