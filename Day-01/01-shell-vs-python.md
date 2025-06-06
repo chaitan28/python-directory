@@ -25,3 +25,25 @@ Certainly! The choice between using shell scripting and Python in DevOps depends
 5. **Error Handling:** Python provides better error handling and debugging capabilities, which can be valuable in DevOps where reliability is crucial.
 
 6. **Advanced Data Processing:** If your task involves advanced data processing, data analysis, or machine learning, Python's rich ecosystem of libraries (e.g., Pandas, NumPy, SciPy) makes it a more suitable choice.
+
+**python vs C :**
+| Feature           | Python                         | C                                  |
+| ----------------- | ------------------------------ | ---------------------------------- |                    |
+| Compilation       | Interpreted (line-by-line)     | Compiled (whole code)              |
+| Speed             | Slower                         | Faster                             |
+| Syntax            | Simple, readable               | Complex, strict                    |                            |
+| Use Case          | Scripting, AI, web, automation | OS, embedded, performance-critical |
+
+1. **python syntax(simple)**
+```sh
+print("Hello, World!")
+```
+2. **C syntax(complex)**
+```sh
+#include <stdio.h>
+
+int main() {
+    printf("Hello, World!\n");
+    return 0;
+}
+```
