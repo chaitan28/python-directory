@@ -9,12 +9,13 @@ add()
 
 def sub():
     d=a-b
-    print( "subtration", d ) #Uses an f-string to embed variable values inside a string.
-sub()
+    print(f"subtration:", d ) #Uses an f-string to embed variable values a = 10 print(f"a={a}")  # Output: a=10
+
+sub()           
 
 def multiply():
     e = a * b
-    print( "mutliplication:", e )
+    print(f"mutliplication:", e )
 
 def divide():
     f = a/b
@@ -27,4 +28,3 @@ def remainder():
 remainder()
 multiply()
 divide()
-
