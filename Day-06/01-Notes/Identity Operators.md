@@ -17,6 +17,7 @@ Identity operators in Python are used to compare the memory locations of two obj
 x = [1, 2, 3]
 y = x  # y now refers to the same object as x
 result = x is y
+print(result)
 # result will be True
 ```
 

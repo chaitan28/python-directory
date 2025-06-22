@@ -29,3 +29,50 @@ b = False
 result = a or b
 # result will be True
 ```
+Great! Here's the full overview of logical operators in Python:
+
+---
+
+### ✅ **1. `and` Operator – Returns `True` only if both are `True`**
+
+| A     | B     | A and B |
+| ----- | ----- | ------- |
+| True  | True  | True    |
+| True  | False | False   |
+| False | True  | False   |
+| False | False | False   |
+
+---
+
+### ✅ **2. `or` Operator – Returns `True` if **at least one** is `True`**
+
+| A     | B     | A or B |
+| ----- | ----- | ------ |
+| True  | True  | True   |
+| True  | False | True   |
+| False | True  | True   |
+| False | False | False  |
+
+---
+
+### ✅ **3. `not` Operator – Reverses the Boolean value**
+
+| A     | not A |
+| ----- | ----- |
+| True  | False |
+| False | True  |
+
+---
+
+### 🔎 Examples in Python:
+
+```python
+print(True and False)   # False
+print(True or False)    # True
+print(not True)         # False
+print(not False)        # True
+```
+
+---
+
+Let me know if you want these with real-world examples too (like in conditions or if statements).
