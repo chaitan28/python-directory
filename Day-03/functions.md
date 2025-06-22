@@ -1,7 +1,9 @@
-# def fun_name(parameters): 
-     # fun_body
-# calling the function: fun_name(arguments) 
-
+```python
+def fun_name(parameters): 
+         # fun_body
+         
+calling the function: fun_name(arguments) 
+```
 
 ### **1. First Function – Uses `print()` Inside the Function**
 
