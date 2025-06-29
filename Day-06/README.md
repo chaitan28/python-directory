@@ -1,21 +1,69 @@
-# Introduction to Operators in Python
+# Conditional Statements in Python
 
-Operators in Python are special symbols or keywords that are used to perform operations on variables and values. Python supports a wide range of operators, categorized into several types. These operators allow you to perform tasks such as arithmetic calculations, assign values to variables, compare values, perform logical operations, and more.
+Conditional statements are a fundamental part of programming that allow you to make decisions and execute different blocks of code based on certain conditions. In Python, you can use `if`, `elif` (short for "else if"), and `else` to create conditional statements.
 
-Here are the main types of operators in Python:
+## `if` Statement
 
-1. **Arithmetic Operators:** These operators are used for performing basic mathematical operations such as addition, subtraction, multiplication, division, and more.
+The `if` statement is used to execute a block of code if a specified condition is `True`. If the condition is `False`, the code block is skipped.
 
-2. **Assignment Operators:** Assignment operators are used to assign values to variables. They include the equal sign (=) and various compound assignment operators.
+```python
+if condition:
+    # Code to execute if the condition is True
+```
 
-3. **Relational Operators:** Relational operators are used to compare values and determine the relationship between them. They return a Boolean result (True or False).
+- Example:
 
-4. **Logical Operators:** Logical operators are used to combine and manipulate Boolean values. They include "and," "or," and "not."
+```python
+x = 10
+if x > 5:
+    print("x is greater than 5")
+```
 
-5. **Identity Operators:** Identity operators are used to check if two variables point to the same object in memory. The identity operators in Python are "is" and "is not."
+## `elif` Statement
 
-6. **Membership Operators:** Membership operators are used to check if a value is present in a sequence or collection, such as a list, tuple, or string. The membership operators in Python are "in" and "not in."
+The `elif` statement allows you to check additional conditions if the previous `if` or `elif` conditions are `False`. You can have multiple `elif` statements after the initial `if` statement.
 
-7. **Bitwise Operators:** Bitwise operators are used to perform operations on individual bits of binary numbers. They include bitwise AND, OR, XOR, and more.
+```python
+if condition1:
+    # Code to execute if condition1 is True
+elif condition2:
+    # Code to execute if condition2 is True
+elif condition3:
+    # Code to execute if condition3 is True
+# ...
+else:
+    # Code to execute if none of the conditions are True
+```
 
-8. **Precedence of Operations:** Operators in Python have different levels of precedence, which determine the order in which operations are performed in an expression.
+- Example:
+
+```python
+x = 10
+if x > 15:
+    print("x is greater than 15")
+elif x > 5:
+    print("x is greater than 5 but not greater than 15")
+else:
+    print("x is not greater than 5")
+```
+
+## `else` Statement
+
+The `else` statement is used to specify a block of code to execute when none of the previous conditions (in the `if` and `elif` statements) are `True`.
+
+```python
+if condition:
+    # Code to execute if the condition is True
+else:
+    # Code to execute if the condition is False
+```
+
+- Example:
+
+```python
+x = 3
+if x > 5:
+    print("x is greater than 5")
+else:
+    print("x is not greater than 5")
+```
